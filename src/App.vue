@@ -2,9 +2,6 @@
   <div id="app" @click="dismiss">
     <span style="display: none">{{ revision }}</span>
     <div>
-      <header>
-        <p class="random-potato">{{ potatoFact }}</p>
-      </header>
       <router-view />
       <spinner :isVisible="showSpinner" :status="spinnerMsg" />
       <InfoBar :msg="message" />
