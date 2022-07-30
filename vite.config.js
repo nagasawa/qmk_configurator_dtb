@@ -18,5 +18,6 @@ export default defineConfig({
       external: ['vue']
     }
     */
-  }
+  },
+  base: "./"
 });
